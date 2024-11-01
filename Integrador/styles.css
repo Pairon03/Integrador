@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bg-primary {
+    background-color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.filter-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-tabs button {
+    padding: 10px;
+    background: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+}
+
+.filter-tabs button.active {
+    background-color: white;
+    color: #007BFF;
+    font-weight: bold;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+}
+
+.search-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-search {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.badge.aprovado {
+    background-color: #28a745; /* Verde */
+}
+
+.badge.pendente {
+    background-color: #ffc107; /* Amarelo */
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: small;
+    color: gray;
+}
