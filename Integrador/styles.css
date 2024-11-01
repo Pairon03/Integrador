@@ -3,6 +3,27 @@ body {
     margin: 0;
     padding: 0;
 }
+.header-bar {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: white; /* Cor da barra lateral */
+    height: 100vh;
+    position: fixed;
+}
+
+.main-content {
+    margin-left: 200px; /* Espaço para a barra lateral */
+    padding: 20px;
+    width: calc(100% - 200px);
+}
+
+.container-header {
+    padding-left: 20px; /* Espaçamento entre a barra e o conteúdo */
+}
 
 .container {
     width: 80%;
